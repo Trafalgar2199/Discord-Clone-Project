@@ -1,0 +1,90 @@
+.sidebar { 
+        display:  flex; /*flex direction of collumn*/
+    flex-direction: column;
+    flex:0.25;   /* Sidebar takes 25% out of the screen */
+    height: 100vh; 
+    
+    background-color: rgb(121, 109, 233); /*color of the back*/
+   
+}
+.Top_Sidebar{
+    display: flex;  /* Puts the plus sing on the same row with the text */
+    justify-content: space-between; /* Adds a space between plus and title*/
+    align-items: center; /* Centers them a bit */
+    padding: 10px; /* Space between title and text */
+    background-color:rgb(3, 2, 10) ; /* Color of the top of the sidebar */
+    color:white; /* Color of the text */
+    border-bottom: 2px solid rgb(216, 216, 216) ; /* Collor of that little line which separates Progam name and the channels */
+    width: 15vw; /* Width of the sidevbar */
+}
+/* Always put the same name as the one used in js file */
+.Channels_Sidebar{
+    
+flex: 1;
+}
+.Add_Channel{
+    cursor:pointer;  /* Shows us that there is a button when we hover over it */
+}
+.Add_Channel:hover{
+    color:rgb(0, 255, 0); /* Plus button will become green when we gonna hover over it */
+
+}
+.HeaderChannels_Sidebar{
+    display: flex;  /* Puts the plus sing on the same row with the text */
+    justify-content: space-between; /* Adds a space between plus and channel name*/
+    align-items: center; /* Centers them a bit */
+    padding: 5px; /* Space for this part of the sidebar header */
+    background-color:rgb(2, 0, 0) ; /* Color of the top of the header */
+    color:white; /* Color of the text */
+   
+
+}
+.Header_Sidebar{
+    display:flex;
+    align-items: center;
+
+}
+/* We can apply those characteristics to multiple objects */
+.Voice_Sidebar,
+.Profile_Sidebar {  
+    display: flex;  /* Puts the plus sing on the same row with the text */
+    justify-content: space-between; /* Adds a space between plus and channel name*/
+    align-items: center; /* Centers them a bit */
+    color:white; /* Color of the text */
+    background-color:rgb(2, 0, 0) ; /* Color of voice part of the header */
+    padding: 10px; /* Space for this part of the sidebar voice icon */
+    border-top:5px solid rgb(243, 238, 238)
+}
+
+.VoiceInfo_Sidebar{
+    flex:1; /* 1 so it will stay on the left side of the screen */
+    Padding:10px; /* alligns all to the left */
+}
+.VoiceIcon_Sidebar{
+    color:rgb(5, 255, 5); /* Makes the voice signal sign green */
+}
+.VoiceInfo_Sidebar>h3{
+    color:rgb(5, 255, 5); /* Makes the voice connected text green */
+}
+.VoiceInfo_Sidebar>p{
+    font-size: smaller; /* Makes the live stream text smaller */
+}
+.VoiceIcon_Sidebar>.MuiSvgIcon-root{
+    Padding: 10px; /* Gives it a nice look */
+}
+.Profile_Info_Sidebar{
+
+    flex:1;
+    padding:10px;
+}
+.Profile_Info_Sidebar{
+    color:rgb(245, 245, 245); /* Color of the text */
+
+}
+.ProfileIcons_Sidebar>.MuiSvgIcon-root{
+    padding: 10px; /* Gives it a nice look */
+}
+.VoiceIcons_Sidebar:hover{
+    color:rgb(21, 255, 0); /* Plus button will become green when we gonna hover over it */
+
+}

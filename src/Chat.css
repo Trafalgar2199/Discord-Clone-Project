@@ -1,0 +1,50 @@
+.Chat_Design{
+   display:flex; /*flex direction of collumn*/
+   flex-direction: column;
+   flex:0.5;   /* the difference from 0.25 */
+   background-color:#675dc4;
+   height: 100vh;
+   width: 84vw; /* Width of the chat */
+   
+}
+.Chat_Input{
+   color:rgb(0, 0, 0);
+   display:flex;
+   justify-content: space-between; /* Adds a space between plus and title*/
+   align-items: center; /* Centers them a bit */
+   padding: 15px; /* Space in between  */
+   border-radius: 5px;
+  margin:20px;
+  border-top:2px solid rgb(49, 41, 126); /* gives a nice shadow effect */
+  background-color: rgb(121, 109, 233);
+
+}
+.Chat_Messages{
+   flex:1;
+   overflow:scroll;
+}
+.Chat_Messages::-webkit-scrollbar{
+display:none;
+
+}
+.Chat_Messages{
+   -ms-overflow-style:none;
+ scrollbar-width: none;
+}
+.Chat_Input>form>input{
+padding:15p; /* Adding some space */
+background:transparent;
+border:none;
+outline-width: 0;
+color:rgb(255, 255, 255);
+font-size: large;
+}
+.Chat_Input>form{
+   flex:1; /* 1 so it will stay on the left side of the screen */
+}
+.Chat_InputButton{
+   display:none;
+}
+.Chat_InputIcons >.MuiSvgIcon-root{
+   padding:5px;/* Adding some space */
+}

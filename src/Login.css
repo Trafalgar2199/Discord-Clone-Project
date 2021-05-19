@@ -1,0 +1,28 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:43.2%;
+
+  }
+.login{
+   
+    display:  flex; /*flex direction of collumn*/
+    flex-direction: column;
+    flex:1;   /* Sidebar takes 25% out of the screen */
+    background-color: rgb(121, 109, 233); /*color of the back*/
+  
+}
+.login>button{
+background-color: black;
+color:white;
+height:150px;
+font-size: large;
+}
+.login>button:hover{
+
+ 
+    background-color: rgb(48, 48, 48);
+
+}
+    

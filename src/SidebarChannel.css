@@ -1,0 +1,16 @@
+.SidebarChannel:hover >h4 { 
+    /* >h4 so it will target our h4 element which is the text */
+    color:white; /* Text channels change their colors when we hover over them and they also get a black background */
+    background-color: black; 
+}
+.SidebarChannel:hover >h4 {
+   display: flex;  /* Puts the plus sing on the same row with the text */
+   padding-left:10px; /* space of the channel name  background when we hover over it*/
+   background-color:rgb(2, 0, 0) ; /* Color of background of the channle name when we hover over it */
+   color:white; /* Color of the text */
+   cursor:pointer; /* Pointer when we hover over the channel */
+}
+.SidebarChannel_hash{
+    font-size: 30px; /* Size of the channels name text */
+    padding: 8px; /* Space in between  */
+}

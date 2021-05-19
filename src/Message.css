@@ -1,0 +1,15 @@
+.Message{
+    display:flex; /*flex direction of collumn*/
+    
+    align-items: center; /* Centers them a bit */
+    color:rgb(255, 255, 255); 
+    padding: 10px; /* Space in between  */
+}
+.Message_Info{
+    margin-left:20px; /* Creates a bit of space between avatar and the message */
+}
+.Message_TimeStamp{
+    color:rgb(212, 201, 201); /* Gives it a different color from the one used on messages */
+    margin-left: 20px; /* Spce between message and the time when it was sent */
+    font-size: x-small;
+}
